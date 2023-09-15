@@ -39,4 +39,85 @@
     </caracteristicas>
     <valor>R$ 500.000,00</valor>
   </imovel>
+
+  <imovel>
+    <descricao>Apartamento com vista para o mar</descricao>
+    <proprietario>
+      <nome>Maria Souza</nome>
+      <telefone>(21) 9876-5432</telefone>
+      <email>maria.souza@example.com</email>
+    </proprietario>
+    <endereco>
+      <rua>Avenida Beira-Mar</rua>
+      <bairro>Copacabana</bairro>
+      <cidade>Rio de Janeiro</cidade>
+      <numero>789</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>100m²</tamanho>
+      <numQuartos>2</numQuartos>
+      <numBanheiros>2</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 750.000,00</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Terreno amplo para construção</descricao>
+    <proprietario>
+      <nome>Carlos Ferreira</nome>
+      <telefone>(31) 5555-5555</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua das Árvores</rua>
+      <bairro>Centro</bairro>
+      <cidade>Belo Horizonte</cidade>
+    </endereco>
+    <caracteristicas>
+      <tamanho>500m²</tamanho>
+      <numQuartos>0</numQuartos>
+      <numBanheiros>0</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 300.000,00</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Sobrado com piscina</descricao>
+    <proprietario>
+      <nome>Ana Oliveira</nome>
+      <telefone>(51) 1111-1111</telefone>
+      <telefone>(51) 2222-2222</telefone>
+      <email>ana.oliveira@example.com</email>
+    </proprietario>
+    <endereco>
+      <rua>Rua das Palmeiras</rua>
+      <bairro>Centro</bairro>
+      <cidade>Porto Alegre</cidade>
+      <numero>456</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>300m²</tamanho>
+      <numQuartos>3</numQuartos>
+      <numBanheiros>4</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 900.000,00</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Kitnet mobiliado</descricao>
+    <proprietario>
+      <nome>Fernanda Santos</nome>
+      <telefone>(41) 3333-3333</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua da Paz</rua>
+      <bairro>Centro</bairro>
+      <cidade>Curitiba</cidade>
+    </endereco>
+    <caracteristicas>
+      <tamanho>30m²</tamanho>
+      <numQuartos>1</numQuartos>
+      <numBanheiros>1</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 200.000,00</valor>
+  </imovel>
 </imobiliaria>

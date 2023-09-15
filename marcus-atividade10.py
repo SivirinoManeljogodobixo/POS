@@ -38,12 +38,14 @@ for imovel in imoveis:
     telefones_json = []
     for telefone in telefones:
         telefones_json.append(telefone.firstChild.nodeValue)
-    proprietario["telefone: "] = telefones_json
+    proprietario["telefone"] = telefones_json
 
     emails_json = []
     for email in emails:
         emails_json.append(telefone.firstChild.nodeValue)
-    proprietario["email: "] = emails_json
+    proprietario["email"] = emails_json
+
+    imovel_dict["proprietario"]=proprietario
 
     endereco["rua"] = rua
     endereco["bairro"] = bairro
