@@ -1,0 +1,42 @@
+<!DOCTYPE imobiliaria [
+  <!ELEMENT imobiliaria (imovel+)>
+  <!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+  <!ELEMENT descricao (#PCDATA)>
+  <!ELEMENT proprietario (nome, (email|telefone)+)>
+  <!ELEMENT nome (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT telefone (#PCDATA)>
+  <!ELEMENT endereco (rua, bairro, cidade, numero?)>
+  <!ELEMENT rua (#PCDATA)>
+  <!ELEMENT bairro (#PCDATA)>
+  <!ELEMENT cidade (#PCDATA)>
+  <!ELEMENT numero (#PCDATA)>
+  <!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+  <!ELEMENT tamanho (#PCDATA)>
+  <!ELEMENT numQuartos (#PCDATA)>
+  <!ELEMENT numBanheiros (#PCDATA)>
+  <!ELEMENT valor (#PCDATA)>
+]>
+
+<imobiliaria>
+  <imovel>
+    <descricao>Casa espaçosa com jardim</descricao>
+    <proprietario>
+      <nome>João Silva</nome>
+      <email>joao.silva@example.com</email>
+      <telefone>(11) 1234-5678</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua das Flores</rua>
+      <bairro>Jardins</bairro>
+      <cidade>São Paulo</cidade>
+      <numero>123</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>200m²</tamanho>
+      <numQuartos>4</numQuartos>
+      <numBanheiros>3</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 500.000,00</valor>
+  </imovel>
+</imobiliaria>
